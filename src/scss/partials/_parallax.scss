@@ -1,0 +1,35 @@
+.parallax {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }
+  .parallax-wrapper {
+    text-align: center;
+    button {
+      background-color: transparent;
+      border-color: transparent;
+      a {
+        text-decoration: none;
+        font-size: 3rem;
+        border: 2px solid white;
+        border-radius: 10px;
+        transformation: scale(1);
+        transition: 1s;
+        &:hover {
+          transform: scale(1.5);
+          color: black;
+          font-weight: bolder;
+          font-size: 4rem;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+}

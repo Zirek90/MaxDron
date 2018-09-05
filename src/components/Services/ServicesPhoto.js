@@ -36,10 +36,9 @@ class ServicesPhoto extends Component {
     render() {
         return (
             <div>
-
-                <Grid className="text-center">
-                    <h2>Zdjecia</h2>
-                    <Row className="show-grid text-center">
+                <h2 className="services-header">Zdjecia</h2>
+                <Grid className="text-center services-container">
+                    <Row className="show-grid text-center services-wrapper">
 
                         {ServicesPhotoRow.map((e, i) =>
                             <ServicesComponentsPhoto

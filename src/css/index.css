@@ -3,13 +3,106 @@ body {
   padding: 0;
   font-family: sans-serif; }
 
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+  width: 100%; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent; }
+
 a {
+  font-size: 120%;
   color: black;
   padding: 10px; }
 
-#background-video {
-  width: 100%;
-  height: 100%; }
+.header-movie-wrapper {
+  overflow: hidden;
+  display: flex;
+  margin: auto; }
+  .header-movie-wrapper .header-movie {
+    width: 100%;
+    height: 100vh; }
+  .header-movie-wrapper .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .header-movie-wrapper .overlay .header-title {
+      color: white; }
+
+.jumbotron {
+  text-align: center; }
+
+.services-header {
+  text-align: center;
+  font-size: 5rem;
+  margin: 20px; }
+
+.services-container {
+  display: flex;
+  justify-content: center; }
+  .services-container .services-columns {
+    margin-bottom: 30px; }
+  .services-container .services-pic {
+    width: 550px;
+    height: 400px; }
+  .services-container .services-wrapper > div:last-child {
+    margin-left: 25%; }
+
+.jumbotron {
+  text-align: center; }
+
+.services-header {
+  text-align: center;
+  font-size: 5rem;
+  margin: 20px; }
+
+.services-container {
+  display: flex;
+  justify-content: center; }
+  .services-container .services-columns {
+    margin-bottom: 30px; }
+  .services-container .services-pic {
+    width: 550px;
+    height: 400px; }
+  .services-container .services-wrapper > div:last-child {
+    margin-left: 25%; }
+
+.parallax {
+  height: 500px;
+  display: flex;
+  justify-content: center; }
+  .parallax h2 {
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    color: white; }
+  .parallax .parallax-wrapper {
+    text-align: center; }
+    .parallax .parallax-wrapper button {
+      background-color: transparent;
+      border-color: transparent; }
+      .parallax .parallax-wrapper button a {
+        text-decoration: none;
+        font-size: 3rem;
+        border: 2px solid white;
+        border-radius: 10px;
+        transformation: scale(1);
+        transition: 1s; }
+        .parallax .parallax-wrapper button a:hover {
+          transform: scale(1.5);
+          color: black;
+          font-weight: bolder;
+          font-size: 4rem;
+          border-radius: 10px; }
 
 iframe {
   width: 550px;

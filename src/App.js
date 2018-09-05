@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-import { Jumbotron } from 'react-bootstrap';
-import { Parallax } from 'react-parallax';
+import {Jumbotron} from 'react-bootstrap';
+import {Parallax} from 'react-parallax';
 
-import transition from './img/przejscie.jpg';
+import transition from './img/przejscie1.jpg';
 
-import Menu from "./components/Menu/Menu";
 import Header from "./components/Header/Header";
 import ServicesPhoto from "./components/Services/ServicesPhoto";
 import ServicesMovies from "./components/Services/ServicesMovies";
+import Menu from "./components/Menu/Menu";
 
 class App extends Component {
     render() {
@@ -29,10 +29,19 @@ class App extends Component {
                         bgImageAlt="the cat"
                         strength={200}
                     >
-                        Put some text content here
-                        or even an empty div with fixed dimensions
-                        to have a height for the parallax.
-                        <div style={{ height: '400px' }} />
+                        <div className="parallax">
+                            <div className="parallax-wrapper">
+                                <h2>Jeśli szukasz profesjonalnych zdjęć badź filmów, skontakuj się ze mną</h2>
+
+                                <button>
+                                    <a
+                                        href="https://www.facebook.com/maxdron90/?fb_dtsg_ag=AdwLCdYxnqujM6oosS0Yl5QKZj5hFQaecDKN4kY6pVjHsA%3AAdxQwiqbOm_GDheLA1zBvLUHJw-j8Ye20aEhTXNx3mu4sg">Mój
+                                        facebook
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
                     </Parallax>
 
                     <ServicesMovies/>

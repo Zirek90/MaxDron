@@ -8,7 +8,7 @@ class HeaderMovie extends Component {
     render() {
         const videoOptions = {
             src: HeaderVideo,
-            autoPlay:true,
+            autoPlay: true,
             muted: true,
             ref: videoRef => {
                 this.videoRef = videoRef;
@@ -23,14 +23,17 @@ class HeaderMovie extends Component {
             title: 'click to play/pause',
         };
         return (
-            <div style={{
-                // width: '300px',
-                // height: '300px',
-                overflow: 'hidden',
-            }}>
-                <VideoCover
-                    videoOptions={videoOptions}
-                />
+            <div className="header-movie-wrapper">
+                <div className="header-movie">
+                    <div className="overlay">
+                        <HeaderTitle/>
+                    </div>
+                    <VideoCover
+                        videoOptions={videoOptions}
+                    />
+
+
+                </div>
             </div>
         );
     }

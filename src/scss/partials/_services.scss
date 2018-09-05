@@ -1,0 +1,36 @@
+// Photo part
+.jumbotron {
+  text-align: center;
+}
+.services-header {
+  text-align: center;
+  font-size: 5rem;
+  margin: 20px;
+}
+.services-container {
+  display: flex;
+  justify-content: center;
+  .services-columns {
+    margin-bottom: 30px;
+
+  }
+  .services-pic {
+    width: 550px;
+    height: 400px;
+    //transformation: scale(1);
+    //transition: 1s;
+    //z-index: 1;
+    //&:hover {
+    //  transform: scale(1.5);
+    //  z-index: 2;
+    //  position: relative;
+    //
+    //}
+  }
+  .services-wrapper>div:last-child {
+    margin-left: 25%;
+  }
+}
+
+// movie part
+

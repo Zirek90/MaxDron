@@ -1,0 +1,19 @@
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+a {
+  font-size: 120%;
+  color: black;
+  padding: 10px;
+}
+

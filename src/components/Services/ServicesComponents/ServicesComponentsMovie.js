@@ -6,7 +6,7 @@ import Youtube from 'react-youtube'
 class ServicesComponentsMovie extends Component {
     render() {
         return (
-            <Col xs={6} sm={6} className="skills-wrapper">
+            <Col xs={6} sm={6} className="services-columns">
                 <h3>{this.props.title}</h3>
                 <Youtube videoId={this.props.video}/>
             </Col>

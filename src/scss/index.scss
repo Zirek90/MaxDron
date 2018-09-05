@@ -8,19 +8,23 @@ body {
 
 // Menu
 
-a {
-  color: black;
-  padding: 10px;
-}
-
-
+@import "partials/menu.scss";
 
 // Background
+@import "partials/header.scss";
 
-#background-video {
-  width: 100%;
-  height: 100%;
-}
+// Services
+@import "partials/services.scss";
+@import "partials/services.scss";
+
+// Parallax
+@import "partials/parallax.scss";
+
+
+
+
+
+//
 
 iframe {
   width: 550px;

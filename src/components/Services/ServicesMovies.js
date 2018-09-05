@@ -32,9 +32,9 @@ class ServicesMovies extends Component {
     render() {
         return (
             <div>
-                <Grid className="text-center">
-                    <h2>Filmy</h2>
-                    <Row className="show-grid text-center">
+                <h2 className="services-header">Filmy</h2>
+                <Grid className="text-center services-container">
+                    <Row className="show-grid text-center services-wrapper">
 
                         {ServicesPhotoRow.map((e, i) =>
                             <ServicesComponentsMovie
