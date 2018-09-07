@@ -10,16 +10,14 @@ class MenuElements extends Component {
                 <Navbar.Toggle/>
                 <Navbar.Collapse>
                     <Nav pullRight>
-                        <NavItem eventKey={1} componentClass="span">
-                            <a href="#">Home</a>
+                        <NavItem eventKey={1} componentClass="span" href="#home">
+                            <a href="#home">Strona Główna</a>
                         </NavItem>
-                        <NavItem eventKey={2} componentClass="span">
-
-                            <a href="#"> Services</a>
+                        <NavItem eventKey={2} componentClass="span" href="#services">
+                            <a href="#services">Usługi</a>
                         </NavItem>
-                        <NavItem eventKey={3} componentClass="span">
-
-                            <a href="#"> About Me</a>
+                        <NavItem eventKey={3} componentClass="span" href="#contact">
+                            <a href="#contact">Kontakt</a>
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>

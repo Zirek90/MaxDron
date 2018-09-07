@@ -38,7 +38,7 @@ class ServicesPhoto extends Component {
             <div>
                 <h2 className="services-header">Zdjecia</h2>
                 <Grid className="text-center services-container">
-                    <Row className="show-grid text-center services-wrapper">
+                    <Row className="show-grid text-center services-photo">
 
                         {ServicesPhotoRow.map((e, i) =>
                             <ServicesComponentsPhoto
@@ -47,7 +47,6 @@ class ServicesPhoto extends Component {
                                 key={i}/>
                         )}
                     </Row>
-
                 </Grid>
             </div>
         );

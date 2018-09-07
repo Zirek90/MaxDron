@@ -34,7 +34,7 @@ class ServicesMovies extends Component {
             <div>
                 <h2 className="services-header">Filmy</h2>
                 <Grid className="text-center services-container">
-                    <Row className="show-grid text-center services-wrapper">
+                    <Row className="show-grid text-center services-movie">
 
                         {ServicesPhotoRow.map((e, i) =>
                             <ServicesComponentsMovie

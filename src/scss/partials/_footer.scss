@@ -1,0 +1,83 @@
+.footer-container {
+  background-color: rgba(233, 233, 233, 0.5);
+  padding: 30px 30px 10px 30px;
+  .footer {
+    padding-bottom: 10px;
+    .footer-wrapper {
+      width: 40%;
+      .footer-image {
+        float: left;
+        //width: 100px;
+        margin-right: 10px;
+      }
+      .footer-aboutMe {
+        text-align: justify;
+      }
+    }
+    .footer-social-media {
+      width: 50%;
+      float: right;
+      a:hover {
+        font-size: 120%;
+        transition: 1s ease;
+      }
+      .social-media-icon {
+        padding: 5px;
+      }
+    }
+    .footer-copyrights {
+      text-align: center;
+      :first-child {
+        font-weight: bold;
+      }
+      span {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+// responsiveness of footer
+@media (min-width: 1200px) {
+  .footer-image {
+    width: 100px;
+  }
+  .footer-aboutMe {
+    font-size: 2rem;
+    text-align: justify;
+  }
+  .footer-social-media {
+    padding-top: 20px;
+    .social-media-text {
+      padding: 5px;
+      span {
+        font-size: 2rem;
+      }
+    }
+    a {
+      padding: 5px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .footer-image {
+    width: 70px;
+  }
+  .footer-aboutMe {
+    font-size: 1.2rem;
+  }
+  .social-media-text > span {
+    font-size: 1rem;
+  }
+  a {
+    padding: 5px;
+  }
+}
+
+//Copyrights responsiveness
+@media (max-width: 991px) {
+  .footer-copyrights > span {
+    font-size: 1rem;
+  }
+}
