@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Col } from 'react-bootstrap';
-
 import Youtube from 'react-youtube'
 
 class ServicesComponentsMovie extends Component {

@@ -1,10 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  background-color: #ececec; }
 
 .navbar-default {
-  background-color: gray;
+  background-color: rgba(217, 217, 217, 0.7);
   border-color: transparent;
   position: fixed;
   z-index: 1;
@@ -15,9 +16,14 @@ body {
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: transparent; }
   .navbar-default .navbar-collapse a, .navbar-default .navbar-form a {
-    font-size: 1.7rem;
-    color: #fff;
-    padding: 10px; }
+    font-size: 1.8rem;
+    color: black;
+    padding: 15px; }
+    .navbar-default .navbar-collapse a:hover, .navbar-default .navbar-form a:hover {
+      text-decoration: none;
+      font-size: 2rem;
+      font-weight: bolder;
+      transition: 0.5s ease; }
 
 .header-movie-wrapper {
   overflow: hidden;
@@ -36,21 +42,60 @@ body {
     align-items: center;
     justify-content: center; }
     .header-movie-wrapper .overlay .header-title {
-      color: white; }
+      z-index: 1; }
+      .header-movie-wrapper .overlay .header-title .header-title-header {
+        color: white;
+        letter-spacing: 10px;
+        font-size: 10rem;
+        text-align: center;
+        cursor: default; }
+      .header-movie-wrapper .overlay .header-title .header-title-paragraph {
+        color: white;
+        font-size: 5rem;
+        letter-spacing: 5px;
+        cursor: default; }
+      .header-movie-wrapper .overlay .header-title .header-title-btn {
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        background-color: transparent;
+        font-size: 3rem;
+        margin-left: 25%;
+        cursor: pointer;
+        z-index: 5; }
+        .header-movie-wrapper .overlay .header-title .header-title-btn a {
+          color: white;
+          text-decoration: none; }
+        .header-movie-wrapper .overlay .header-title .header-title-btn:hover {
+          background-color: rgba(255, 255, 255, 0.1); }
 
 .jumbotron {
   text-align: center;
-  background-color: rgba(238, 238, 238, 0.5); }
+  background-color: #e1e1e1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0; }
+  .jumbotron h1 {
+    font-size: 6rem; }
 
 .services-header {
   text-align: center;
-  font-size: 5rem;
-  margin: 20px; }
+  font-size: 4rem;
+  padding: 20px;
+  margin: 0; }
 
 .modal-dialog {
-  width: 60%; }
+  width: 55%; }
   .modal-dialog .modal-header {
-    text-align: center; }
+    text-align: center;
+    padding: 0;
+    position: relative; }
+    .modal-dialog .modal-header .close {
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+      .modal-dialog .modal-header .close span {
+        font-size: 3rem; }
     .modal-dialog .modal-header h3 {
       font-weight: bold;
       font-size: 4rem; }
@@ -63,9 +108,6 @@ body {
 .services-container .services-pic {
   width: 550px;
   height: auto; }
-
-.services-container .services-photo > div:last-child {
-  margin-left: 25%; }
 
 @media (min-width: 768px) {
   .services-movie > div:last-child {
@@ -88,17 +130,31 @@ body {
 
 .jumbotron {
   text-align: center;
-  background-color: rgba(238, 238, 238, 0.5); }
+  background-color: #e1e1e1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0; }
+  .jumbotron h1 {
+    font-size: 6rem; }
 
 .services-header {
   text-align: center;
-  font-size: 5rem;
-  margin: 20px; }
+  font-size: 4rem;
+  padding: 20px;
+  margin: 0; }
 
 .modal-dialog {
-  width: 60%; }
+  width: 55%; }
   .modal-dialog .modal-header {
-    text-align: center; }
+    text-align: center;
+    padding: 0;
+    position: relative; }
+    .modal-dialog .modal-header .close {
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+      .modal-dialog .modal-header .close span {
+        font-size: 3rem; }
     .modal-dialog .modal-header h3 {
       font-weight: bold;
       font-size: 4rem; }
@@ -111,9 +167,6 @@ body {
 .services-container .services-pic {
   width: 550px;
   height: auto; }
-
-.services-container .services-photo > div:last-child {
-  margin-left: 25%; }
 
 @media (min-width: 768px) {
   .services-movie > div:last-child {
@@ -135,27 +188,25 @@ body {
     max-height: 300px; } }
 
 .parallax {
-  height: 500px;
-  display: flex;
-  justify-content: center; }
+  height: 500px; }
   .parallax h2 {
     height: 50%;
-    display: flex;
-    align-items: flex-end;
-    color: white; }
+    text-align: right;
+    font-size: 3.5rem;
+    color: black; }
   .parallax .parallax-wrapper {
-    text-align: center; }
+    margin-right: 50px;
+    text-align: right; }
     .parallax .parallax-wrapper button {
       background-color: transparent;
       border-color: transparent; }
-      .parallax .parallax-wrapper button a {
+      .parallax .parallax-wrapper button img {
         text-decoration: none;
         font-size: 3rem;
-        border: 2px solid white;
         border-radius: 10px;
         transformation: scale(1);
         transition: 1s; }
-        .parallax .parallax-wrapper button a:hover {
+        .parallax .parallax-wrapper button img:hover {
           transform: scale(1.5);
           color: black;
           font-weight: bolder;
@@ -168,20 +219,20 @@ body {
   .footer-container .footer {
     padding-bottom: 10px; }
     .footer-container .footer .footer-wrapper {
-      width: 40%; }
+      width: 50%; }
       .footer-container .footer .footer-wrapper .footer-image {
         float: left;
         margin-right: 10px; }
       .footer-container .footer .footer-wrapper .footer-aboutMe {
         text-align: justify; }
     .footer-container .footer .footer-social-media {
-      width: 50%;
+      width: 30%;
       float: right; }
-      .footer-container .footer .footer-social-media a:hover {
-        font-size: 120%;
-        transition: 1s ease; }
-      .footer-container .footer .footer-social-media .social-media-icon {
+      .footer-container .footer .footer-social-media .social-media-text {
         padding: 5px; }
+        .footer-container .footer .footer-social-media .social-media-text a:hover {
+          font-size: 120%;
+          transition: 1s ease; }
     .footer-container .footer .footer-copyrights {
       text-align: center; }
       .footer-container .footer .footer-copyrights :first-child {
@@ -189,18 +240,21 @@ body {
       .footer-container .footer .footer-copyrights span {
         padding: 20px; }
 
+.modal-footer > p {
+  font-size: 1.5em; }
+
 @media (min-width: 1200px) {
   .footer-image {
     width: 100px; }
   .footer-aboutMe {
     font-size: 2rem;
     text-align: justify; }
+  .footer-aboutMe-two {
+    font-size: 2.5rem; }
   .footer-social-media {
-    padding-top: 20px; }
-    .footer-social-media .social-media-text {
-      padding: 5px; }
-      .footer-social-media .social-media-text span {
-        font-size: 2rem; }
+    margin-top: 5%; }
+    .footer-social-media .social-media-text span {
+      font-size: 2rem; }
     .footer-social-media a {
       padding: 5px; } }
 

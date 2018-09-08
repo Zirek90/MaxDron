@@ -11,7 +11,8 @@
     "react-parallax": "^1.8.0",
     "react-scripts": "1.1.5",
     "react-video-cover": "^1.2.0",
-    "react-youtube": "^7.6.0"
+    "react-youtube": "^7.6.0",
+    "wow.js": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

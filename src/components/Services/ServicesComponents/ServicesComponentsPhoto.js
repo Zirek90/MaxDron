@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import {Col, Image, Modal } from 'react-bootstrap';
 
-
-
 class ServicesComponentsPhoto extends Component {
     constructor(props) {
         super(props);
@@ -30,8 +28,6 @@ class ServicesComponentsPhoto extends Component {
                 <h3>{this.props.title}</h3>
                 <Image src={this.props.photo} rounded responsive className="services-pic" bsStyle="primary"
                        bsSize="large" onClick={this.handleShow}/>
-
-
                 <Modal show={this.state.show} onHide={this.handleClose}>
                     <Modal.Header closeButton>
                         <h3>{this.props.title}</h3>
@@ -39,6 +35,9 @@ class ServicesComponentsPhoto extends Component {
                     <Modal.Body>
                         <Image src={this.props.photo} rounded responsive className="services-pic"/>
                     </Modal.Body>
+                    <Modal.Footer>
+                        <p>{this.props.description}</p>
+                    </Modal.Footer>
                 </Modal>
             </Col>
 

@@ -1,15 +1,28 @@
 import React, {Component} from 'react';
-import {Col} from 'react-bootstrap';
-
 
 class FooterAboutMe extends Component {
     render() {
         return (
-            <p className="footer-aboutMe">Mateusz Grzymowicz, Junior front-end developer graduate of bootcamp „Front-end
-                Developer:React” by CodersLab is willing to be employed soon. I'm a very enthusiastic person, full of
-                passion and desires to obtain knowledge and necessary experience as a front-end developer especially
-                with React library.
-            </p>
+            <div>
+                <p className="footer-aboutMe">MaxDron, oferujemy kmpleksowe usługi z zakresu fotografii oraz filmowania
+                    wszelkiego rodzaju obiektów z powietrza. Posiadamy najnowszego rodzaju sprzęt na rynku który pozwala
+                    uzyskiwać
+                    materiał w najwyższej jakości obrazu. Wykonywanie zdjęć o rozdzielczości 12 Mpix oraz
+                    nagrywanie obrazu w jakości 4K. Zasięg naszych usług jest praktycznie nieograniczony, działamy
+                    głównie
+                    na terenie całego Trójmiasta oraz w granicach województwa pomorskiego. Zlecenie wykonujmy możliwie
+                    szybko i w konkurencyjnych cenach po uzgodnieniu szczegułów z klientem. Angażując się w każdy
+                    projekt
+                    proponujemy ciekawe ujęcia i rozwiązania przy realizacji każdego projektu. Szybkość realizacji to
+                    nasza
+                    mocna strona, możliwość otrzymania materiału nawet na drugi dzień po wykonaniu zlecenia. Zdjęcia
+                    oraz
+                    nagrania przekazujemy w surowym formacie lub po odpowiedniej obróbce.
+                </p>
+                <p className="footer-aboutMe-two">
+                    Zapraszamy do kontaktu.
+                </p>
+            </div>
         );
     }
 }

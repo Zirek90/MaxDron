@@ -4,8 +4,6 @@ import FooterPhoto from "./FooterComponents/FooterPhoto";
 import FooterSocialMedia from "./FooterComponents/FooterSocialMedia";
 import FooterCopyright from "./FooterComponents/FooterCopyrights";
 
-
-
 class Footer extends Component {
     render() {
         return (

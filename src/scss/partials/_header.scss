@@ -10,29 +10,47 @@
   }
   .overlay {
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     .header-title {
-      color: white;
+      z-index: 1;
+      .header-title-header {
+        color: white;
+        letter-spacing: 10px;
+        font-size: 10rem;
+        text-align: center;
+        cursor: default;
+      }
+      .header-title-paragraph {
+        color: white;
+        font-size: 5rem;
+        letter-spacing: 5px;
+        cursor: default;
+      }
+      .header-title-btn {
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        background-color: transparent;
+        font-size: 3rem;
+        margin-left: 25%;
+        cursor: pointer;
+        z-index: 5;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover {
+          background-color: rgba(255,255,255,0.1);
+        }
+      }
     }
   }
 }
 
-// HeaderPhoto
-
-//.header-title-wrapper {
-//  height: 100%;
-//  display: flex;
-//  justify-content: center;
-//  align-items: center;
-//  .header-title {
-//    color: white;
-//    font-size: 6rem;
-//    border: 2px dashed white;
-//    border-radius: 10px;
-//    padding: 10px;
-//  }
-//}
 

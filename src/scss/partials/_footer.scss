@@ -4,10 +4,9 @@
   .footer {
     padding-bottom: 10px;
     .footer-wrapper {
-      width: 40%;
+      width: 50%;
       .footer-image {
         float: left;
-        //width: 100px;
         margin-right: 10px;
       }
       .footer-aboutMe {
@@ -15,14 +14,14 @@
       }
     }
     .footer-social-media {
-      width: 50%;
+      width: 30%;
       float: right;
-      a:hover {
-        font-size: 120%;
-        transition: 1s ease;
-      }
-      .social-media-icon {
+      .social-media-text {
         padding: 5px;
+        a:hover {
+          font-size: 120%;
+          transition: 1s ease;
+        }
       }
     }
     .footer-copyrights {
@@ -37,6 +36,10 @@
   }
 }
 
+.modal-footer > p {
+  font-size: 1.5em;
+}
+
 // responsiveness of footer
 @media (min-width: 1200px) {
   .footer-image {
@@ -46,10 +49,12 @@
     font-size: 2rem;
     text-align: justify;
   }
+  .footer-aboutMe-two {
+    font-size: 2.5rem;
+  }
   .footer-social-media {
-    padding-top: 20px;
+    margin-top: 5%;
     .social-media-text {
-      padding: 5px;
       span {
         font-size: 2rem;
       }

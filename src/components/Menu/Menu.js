@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import MenuList from "./MenuList/MenuList";
 
-
 class Menu extends Component {
     constructor(props) {
         super(props)
@@ -35,9 +34,7 @@ class Menu extends Component {
     }
 
     render() {
-
         const isScrolling = this.state.scrollPositionY
-
 
         return (
             <div style={{opacity:this.state.opacity, transition: '1s ease'}}>

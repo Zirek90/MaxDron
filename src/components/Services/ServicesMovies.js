@@ -2,29 +2,27 @@ import React, {Component} from 'react';
 
 import { Grid, Row } from 'react-bootstrap';
 
-
-
 import ServicesComponentsMovie from "./ServicesComponents/ServicesComponentsMovie";
 const ServicesPhotoRow = [
     {
-        video: "pWEexDZ2fBc",
-        title: "Zdjecia"
-    },
-    {
-        video: "PGx7YYrOrwk",
-        title: "Kaczki"
-    },
-    {
         video: "jUygnVNGE00",
-        title: "Objecia"
-    },
-    {
-        video: "vf-BrRy5_Hs",
-        title: "Kadry"
+        title: "Olivia Business Centre - Olivia Star 180m (06.2018) MaxDron"
     },
     {
         video: "JgwNAw1QkLA",
-        title: "Zwierzaczki"
+        title: "Arktyczna Gdynia 2018 4K - MaxDron"
+    },
+    {
+        video: "NZjHgWjUU8Y",
+        title: "Olivia Business Centre - Olivia Star 180m (03.2018) MaxDron"
+    },
+    {
+        video: "0YqbS9xNPik",
+        title: "Bajecznie białe Orłowo 2018 4k - MaxDron"
+    },
+    {
+        video: "pWEexDZ2fBc",
+        title: "Podsumowanie roku 2017 4K - MaxDron"
     }
 ];
 
@@ -32,7 +30,7 @@ class ServicesMovies extends Component {
     render() {
         return (
             <div>
-                <h2 className="services-header">Filmy</h2>
+                <h2 className="services-header">Przykładowe nagrania</h2>
                 <Grid className="text-center services-container">
                     <Row className="show-grid text-center services-movie">
 

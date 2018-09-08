@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import HeaderTitle from "./HeaderTitle";
-import HeaderVideo from '../../../img/Olivia Business Centre - Olivia Star 180m (01.2018) MaxDron.mp4';
+import HeaderVideo from '../../../img/Podsumowanie roku 2017  4K - MaxDron.mp4';
 import VideoCover from 'react-video-cover';
 
 class HeaderMovie extends Component {
@@ -31,8 +31,6 @@ class HeaderMovie extends Component {
                     <VideoCover
                         videoOptions={videoOptions}
                     />
-
-
                 </div>
             </div>
         );
