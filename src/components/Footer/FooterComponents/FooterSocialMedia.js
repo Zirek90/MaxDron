@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Col, Image} from 'react-bootstrap';
 
-import facebook from '../../../img/facebook.png'
-import instagram from '../../../img/instagram.png'
-import email from '../../../img/gmail.png'
-import phone from '../../../img/mobile-phone.png'
-import youtube from '../../../img/youtube.png'
+import facebook from '../../../img/SocialMediaIcons/facebook.png'
+import instagram from '../../../img/SocialMediaIcons/instagram.png'
+import email from '../../../img/SocialMediaIcons/gmail.png'
+import phone from '../../../img/SocialMediaIcons/mobile-phone.png'
+import youtube from '../../../img/SocialMediaIcons/youtube.png'
 
 
 class FooterSocialMedia extends Component {
@@ -31,7 +31,7 @@ class FooterSocialMedia extends Component {
                 </div>
                 <div className="social-media-text">
                     <Image src={phone} rounded className="social-media-icon"/>
-                    <span><a href="#">603 086 390</a></span>
+                    <span><a href="tel:603-086-390">603 086 390</a></span>
                 </div>
             </Col>
         );

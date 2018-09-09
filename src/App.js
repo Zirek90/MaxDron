@@ -9,7 +9,7 @@ import ServicesMovies from "./components/Services/ServicesMovies";
 import Menu from "./components/Menu/Menu";
 import Footer from "./components/Footer/Footer";
 
-import transition from './img/1.jpg';
+import transition1 from './img/transition1.jpg';
 import headerPhoto from './img/header.jpg';
 import parallaxBtn from "./img/gallery.png";
 
@@ -33,7 +33,7 @@ class App extends Component {
 
 
                     <Parallax
-                        bgImage={transition}
+                        bgImage={transition1}
                         bgImageAlt="the cat"
                         strength={300}
                     >

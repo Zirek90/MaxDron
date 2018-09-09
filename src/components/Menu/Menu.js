@@ -34,8 +34,6 @@ class Menu extends Component {
     }
 
     render() {
-        const isScrolling = this.state.scrollPositionY
-
         return (
             <div style={{opacity:this.state.opacity, transition: '1s ease'}}>
                 <MenuList/>

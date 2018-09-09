@@ -3,34 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="ac2d3588-9498-4ef6-9aa1-7a9c6a632b87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterAboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterAboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterCopyrights.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterCopyrights.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterSocialMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterSocialMedia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderTitle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/MenuList/MenuList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/MenuList/MenuList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsPhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services/ServicesMovies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/ServicesMovies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Services/ServicesPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/ServicesPhoto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Project4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Project4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Project5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Project5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/kopie/Project4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/kopie/Project4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/kopie/Project5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/kopie/Project5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_parallax.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_parallax.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_services.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Olivia Business Centre - Olivia Star 180m (01.2018) MaxDron.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/dron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gmail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/kot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mobile-phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/przejscie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/przejscie1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/youtube.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,14 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="ServicesPhoto.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Services/ServicesPhoto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -59,17 +44,8 @@
       <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -96,16 +72,11 @@
         <option value="$PROJECT_DIR$/../../Dr-fisher/fishcan-project/src/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsInfo.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterSocialMedia.js" />
-        <option value="$PROJECT_DIR$/src/components/Services/ServicesPhoto.js" />
-        <option value="$PROJECT_DIR$/src/scss/index.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_footer.scss" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderTitle.js" />
         <option value="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" />
         <option value="$PROJECT_DIR$/src/components/Menu/MenuList/MenuList.js" />
-        <option value="$PROJECT_DIR$/src/components/Menu/Menu.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsPhoto.js" />
         <option value="$PROJECT_DIR$/src/components/Services/ServicesMovies.js" />
         <option value="$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsMovie.js" />
@@ -116,6 +87,11 @@
         <option value="$PROJECT_DIR$/src/scss/partials/_menu.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_parallax.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_services.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Menu/Menu.js" />
+        <option value="$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterSocialMedia.js" />
+        <option value="$PROJECT_DIR$/src/scss/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Services/ServicesPhoto.js" />
       </list>
     </option>
   </component>
@@ -173,15 +149,22 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
-              <item name="FooterComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Services" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicesComponents" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project" type="b2602c69:ProjectViewProjectNode" />
@@ -238,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536052096255</updated>
-      <workItem from="1536052097566" duration="60019000" />
+      <workItem from="1536052097566" duration="63465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60019000" />
+    <option name="totallyTimeSpent" value="63465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -375,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1392">
-          <caret selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderPhoto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -453,36 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Menu/Menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Services/ServicesPhoto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsPhoto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Services/ServicesMovies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -524,30 +470,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterSocialMedia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="91" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -582,17 +508,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Menu/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/FooterComponents/FooterSocialMedia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Services/ServicesComponents/ServicesComponentsPhoto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Services/ServicesPhoto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
