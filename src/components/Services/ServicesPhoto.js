@@ -3,14 +3,14 @@ import React, {Component} from 'react';
 import { Grid, Row } from 'react-bootstrap';
 import ServicesComponentsPhoto from "./ServicesComponents/ServicesComponentsPhoto";
 
-import project1 from '../../img/Project11.jpg'
-import project2 from '../../img/project222.jpg'
-import project3 from '../../img/Project33.jpg'
-import project4 from '../../img/Project44.jpg'
-import project5 from '../../img/Project55.jpg'
-import project6 from '../../img/Project666.jpg'
-import project7 from '../../img/Project77.jpg'
-import project8 from '../../img/Project88.jpg'
+import project1 from '../../img/Project1.jpg'
+import project2 from '../../img/Project2.jpg'
+import project3 from '../../img/Project3.jpg'
+import project4 from '../../img/Project4.jpg'
+import project5 from '../../img/Project5.jpg'
+import project6 from '../../img/Project6.jpg'
+import project7 from '../../img/Project7.jpg'
+import project8 from '../../img/Project8.jpg'
 
 const ServicesPhotoRow = [
     {
