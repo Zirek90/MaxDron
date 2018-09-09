@@ -53,6 +53,12 @@
 
 // Movie media
 
+@media (max-width: 1199px) {
+  .services-columns>h3 {
+    font-size: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .services-movie > div:last-child {
     margin-left: 25%;
@@ -74,6 +80,9 @@
 }
 
 @media (max-width: 991px) {
+  .services-columns>h3 {
+    font-size: 1.5rem;
+  }
   iframe {
     max-width: 100%;
     max-height: 300px;
