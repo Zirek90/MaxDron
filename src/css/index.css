@@ -266,7 +266,7 @@ body {
       .footer-container .footer .footer-copyrights :first-child {
         font-weight: bold; }
       .footer-container .footer .footer-copyrights span {
-        padding: 20px; }
+        padding: 5px; }
 
 .modal-footer > p {
   font-size: 1.5em; }
@@ -290,10 +290,7 @@ body {
   .footer-aboutMe {
     font-size: 1.3rem; }
   .social-media-text > span {
-    font-size: 1rem; }
-  a {
-    padding: 2px;
-    font-size: 70%; } }
+    font-size: 1rem; } }
 
 @media (min-width: 761px) {
   .footer-wrapper {
@@ -302,6 +299,8 @@ body {
     width: 30%;
     float: right; }
     .footer-social-media .social-media-text {
+      padding: 5px; }
+    .footer-social-media a {
       padding: 5px; } }
 
 @media (max-width: 760px) {
@@ -317,9 +316,13 @@ body {
         text-align: center; }
     .footer-social-media .social-media-icon {
       padding: 5px; }
+  .footer-social-media > div:nth-child(4) > img {
+    margin-left: 25%; }
   .footer-copyrights > span {
     font-size: 1rem; } }
 
 @media (max-width: 612px) {
   .footer-copyrights > span {
-    font-size: 0.5rem; } }
+    font-size: 0.8rem;
+    display: block;
+    padding: 0; } }
