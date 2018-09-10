@@ -34,14 +34,16 @@ class App extends Component {
 
                     <Parallax
                         bgImage={transition1}
-                        bgImageAlt="the cat"
+                        bgImageAlt="backgroundImage"
                         strength={300}
                     >
                         <div className="parallax">
                             <div className="parallax-wrapper">
                                 <h2>Nasza galeria</h2>
                                 <button>
-                                    <img src={parallaxBtn} alt="parallaxBtn"/>
+                                    <a href="https://www.facebook.com/pg/maxdron90/photos/?ref=page_internal">
+                                        <img src={parallaxBtn} alt="parallaxBtn"/>
+                                    </a>
                                 </button>
                             </div>
                         </div>
@@ -51,7 +53,7 @@ class App extends Component {
 
                     <Parallax
                         bgImage={headerPhoto}
-                        bgImageAlt="the cat"
+                        bgImageAlt="backgroundImage"
                         strength={300}
                     >
                         <div style={{height: "400px"}}/>
