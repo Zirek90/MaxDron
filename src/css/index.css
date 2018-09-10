@@ -122,9 +122,10 @@ body {
     margin-left: 25%; } }
 
 @media (max-width: 767px) {
-  .services-movie {
-    display: inline-block;
-    margin-left: 25%; } }
+  .services-movie .services-columns {
+    width: 100%; }
+    .services-movie .services-columns iframe {
+      width: 70%; } }
 
 @media (min-width: 992px) {
   iframe {
@@ -139,8 +140,6 @@ body {
     max-height: 300px; } }
 
 @media (max-width: 674px) {
-  .services-movie {
-    margin-left: 25%; }
   iframe {
     max-width: 300px;
     height: 250px; } }
@@ -197,9 +196,10 @@ body {
     margin-left: 25%; } }
 
 @media (max-width: 767px) {
-  .services-movie {
-    display: inline-block;
-    margin-left: 25%; } }
+  .services-movie .services-columns {
+    width: 100%; }
+    .services-movie .services-columns iframe {
+      width: 70%; } }
 
 @media (min-width: 992px) {
   iframe {
@@ -214,8 +214,6 @@ body {
     max-height: 300px; } }
 
 @media (max-width: 674px) {
-  .services-movie {
-    margin-left: 25%; }
   iframe {
     max-width: 300px;
     height: 250px; } }
@@ -251,21 +249,14 @@ body {
   padding: 30px 30px 10px 30px; }
   .footer-container .footer {
     padding-bottom: 10px; }
-    .footer-container .footer .footer-wrapper {
-      width: 50%; }
-      .footer-container .footer .footer-wrapper .footer-image {
-        float: left;
-        margin-right: 10px; }
-      .footer-container .footer .footer-wrapper .footer-aboutMe {
-        text-align: justify; }
-    .footer-container .footer .footer-social-media {
-      width: 30%;
-      float: right; }
-      .footer-container .footer .footer-social-media .social-media-text {
-        padding: 5px; }
-        .footer-container .footer .footer-social-media .social-media-text a:hover {
-          font-size: 120%;
-          transition: 1s ease; }
+    .footer-container .footer .footer-wrapper .footer-image {
+      float: left;
+      margin-right: 10px; }
+    .footer-container .footer .footer-wrapper .footer-aboutMe {
+      text-align: justify; }
+    .footer-container .footer .footer-social-media .social-media-text a:hover {
+      font-size: 120%;
+      transition: 1s ease; }
     .footer-container .footer .footer-copyrights {
       text-align: center; }
       .footer-container .footer .footer-copyrights :first-child {
@@ -295,17 +286,29 @@ body {
   .footer-image {
     width: 70px; }
   .footer-aboutMe {
-    font-size: 1.2rem; }
+    font-size: 1.3rem; }
   .social-media-text > span {
     font-size: 1rem; }
   a {
     padding: 5px; } }
 
-@media (max-width: 680px) {
-  .footer-aboutMe {
-    font-size: 0.8rem; } }
+@media (min-width: 761px) {
+  .footer-wrapper {
+    width: 50%; }
+  .footer-social-media {
+    width: 30%;
+    float: right; }
+    .footer-social-media .social-media-text {
+      padding: 5px; } }
 
 @media (max-width: 760px) {
+  .footer-wrapper {
+    width: 100%; }
+  .footer-social-media {
+    width: 100%;
+    display: flex; }
+    .footer-social-media .social-media-text {
+      padding: 0; }
   .footer-copyrights > span {
     font-size: 1rem; } }
 

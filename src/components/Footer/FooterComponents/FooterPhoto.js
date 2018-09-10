@@ -7,7 +7,7 @@ import FooterAboutMe from "./FooterAboutMe";
 class FooterPhoto extends Component {
     render() {
         return (
-            <Col xs={6} sm={2} className="footer-wrapper">
+            <Col xs={12} sm={2} className="footer-wrapper">
                 <Image src={photo} rounded responsive className="footer-image"/>
                 <FooterAboutMe/>
             </Col>

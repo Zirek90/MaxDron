@@ -11,7 +11,7 @@ import youtube from '../../../img/SocialMediaIcons/youtube.png'
 class FooterSocialMedia extends Component {
     render() {
         return (
-            <Col xs={6} sm={4} className="footer-social-media">
+            <Col xs={12} sm={4} className="footer-social-media">
                 <div className="social-media-text">
                     <Image src={facebook} rounded className="social-media-icon"/>
                     <span><a href="https://www.facebook.com/maxdron90/?fb_dtsg_ag=AdwLCdYxnqujM6oosS0Yl5QKZj5hFQaecDKN4kY6pVjHsA%3AAdxQwiqbOm_GDheLA1zBvLUHJw-j8Ye20aEhTXNx3mu4sg">Facebook</a></span>
