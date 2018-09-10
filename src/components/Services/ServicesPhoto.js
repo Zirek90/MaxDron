@@ -26,7 +26,7 @@ const ServicesPhotoRow = [
     {
         photo: project3,
         title: "otoczenia nieruchomości",
-        description: "Fotografia z drona zwiększa atrakcyjność sprzedawanych nieruchomości"
+        description: "Fotografia z drona umożliwia pokazanie walorów działek oraz nieruchomości"
     },
     {
         photo: project4,
