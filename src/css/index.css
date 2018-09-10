@@ -142,7 +142,9 @@ body {
 @media (max-width: 674px) {
   iframe {
     max-width: 300px;
-    height: 250px; } }
+    height: 250px; }
+  .modal-dialog {
+    width: 80%; } }
 
 .jumbotron {
   text-align: center;
@@ -216,7 +218,9 @@ body {
 @media (max-width: 674px) {
   iframe {
     max-width: 300px;
-    height: 250px; } }
+    height: 250px; }
+  .modal-dialog {
+    width: 80%; } }
 
 .parallax {
   height: 500px; }
@@ -254,7 +258,7 @@ body {
       margin-right: 10px; }
     .footer-container .footer .footer-wrapper .footer-aboutMe {
       text-align: justify; }
-    .footer-container .footer .footer-social-media .social-media-text a:hover {
+    .footer-container .footer .footer-social-media a:hover {
       font-size: 120%;
       transition: 1s ease; }
     .footer-container .footer .footer-copyrights {
@@ -278,9 +282,7 @@ body {
   .footer-social-media {
     margin-top: 5%; }
     .footer-social-media .social-media-text span {
-      font-size: 2rem; }
-    .footer-social-media a {
-      padding: 5px; } }
+      font-size: 2rem; } }
 
 @media (max-width: 1199px) {
   .footer-image {
@@ -290,7 +292,8 @@ body {
   .social-media-text > span {
     font-size: 1rem; }
   a {
-    padding: 5px; } }
+    padding: 2px;
+    font-size: 70%; } }
 
 @media (min-width: 761px) {
   .footer-wrapper {
@@ -308,7 +311,12 @@ body {
     width: 100%;
     display: flex; }
     .footer-social-media .social-media-text {
-      padding: 0; }
+      padding: 2px; }
+      .footer-social-media .social-media-text a {
+        display: block;
+        text-align: center; }
+    .footer-social-media .social-media-icon {
+      padding: 5px; }
   .footer-copyrights > span {
     font-size: 1rem; } }
 
