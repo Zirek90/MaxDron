@@ -19,6 +19,7 @@
 
 .modal-dialog {
   width: 55%;
+  margin: auto;
   .modal-header {
     text-align: center;
     padding: 0;
@@ -44,6 +45,9 @@
 .services-container {
   .services-columns {
     margin-bottom: 30px;
+    h3 {
+      text-align: center;
+    }
   }
   .services-pic {
     width: 550px;
@@ -69,6 +73,7 @@
   .services-movie {
     display: inline-block;
     margin-left: 25%;
+
   }
 }
 
@@ -86,5 +91,14 @@
   iframe {
     max-width: 100%;
     max-height: 300px;
+  }
+}
+@media (max-width: 674px) {
+  .services-movie {
+    margin-left: 25%;
+  }
+  iframe {
+    max-width: 300px;
+    height: 250px;;
   }
 }
