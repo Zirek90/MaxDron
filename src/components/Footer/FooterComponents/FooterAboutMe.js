@@ -4,7 +4,7 @@ class FooterAboutMe extends Component {
     render() {
         return (
             <div>
-                <p className="footer-aboutMe">MaxDron, oferujemy kmpleksowe usługi z zakresu fotografii oraz filmowania
+                <p className="footer-aboutMe">MaxDron, oferujemy kompleksowe usługi z zakresu fotografii oraz filmowania
                     wszelkiego rodzaju obiektów z powietrza. Posiadamy najnowszego rodzaju sprzęt na rynku który pozwala
                     uzyskiwać
                     materiał w najwyższej jakości obrazu. Wykonywanie zdjęć o rozdzielczości 12 Mpix oraz
