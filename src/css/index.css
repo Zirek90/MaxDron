@@ -63,7 +63,11 @@ body {
         font-size: 3rem;
         margin-left: 25%;
         cursor: pointer;
-        z-index: 5; }
+        z-index: 5;
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid grey;
+        border-bottom: 2px solid grey; }
         .header-movie-wrapper .overlay .header-title .header-title-btn a {
           color: white;
           text-decoration: none; }
