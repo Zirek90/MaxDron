@@ -144,6 +144,8 @@ body {
     max-height: 300px; } }
 
 @media (max-width: 674px) {
+  .services-columns > h3 {
+    font-size: 0.8rem; }
   iframe {
     max-width: 300px;
     height: 250px; }
@@ -220,6 +222,8 @@ body {
     max-height: 300px; } }
 
 @media (max-width: 674px) {
+  .services-columns > h3 {
+    font-size: 0.8rem; }
   iframe {
     max-width: 300px;
     height: 250px; }

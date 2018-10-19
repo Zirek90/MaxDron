@@ -15,13 +15,13 @@ import project8 from '../../img/Project8.jpg'
 const ServicesPhotoRow = [
     {
         photo: project1,
-        title: "przebiegu budowy",
+        title: "usługi dla developerów, architektów i firm budowlanych",
         description: "Panoramy przyszłych kontygnacji || Postęp budowy || Dokumentacja budowy || Monitoring budowy"
     },
     {
         photo: project2,
         title: "obiektów na sprzedaż",
-        description: "Prezentacja obiektów z wysokości zwiększa ich atrakcyjność"
+        description: "Filmy i zdjęcia sprzedażowe budynków, działek, itp."
     },
     {
         photo: project3,
@@ -59,7 +59,7 @@ class ServicesPhoto extends Component {
     render() {
         return (
             <div>
-                <h2 className="services-header">Fotografie</h2>
+                <h2 className="services-header">Filmy i zdjęcia</h2>
                 <Grid className="text-center services-container">
                     <Row className="show-grid text-center services-photo">
 
