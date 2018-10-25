@@ -10,6 +10,11 @@ class HeaderMovie extends Component {
             src: HeaderVideo,
             autoPlay: true,
             muted: true,
+            style: {
+                width: '100%',
+                height: '100%',
+                objectFit: 'fill'
+            },
             ref: videoRef => {
                 this.videoRef = videoRef;
             },
@@ -29,8 +34,7 @@ class HeaderMovie extends Component {
                         <HeaderTitle/>
                     </div>
                     <VideoCover
-                        videoOptions={videoOptions}
-                    />
+                        videoOptions={videoOptions}/>
                 </div>
             </div>
         );
