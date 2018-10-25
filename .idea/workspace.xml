@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2d3588-9498-4ef6-9aa1-7a9c6a632b87" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" afterDir="false" />
-    </list>
+    <list default="true" id="ac2d3588-9498-4ef6-9aa1-7a9c6a632b87" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state>
+              <caret column="988" selection-start-column="988" selection-end-column="988" />
             </state>
           </provider>
         </entry>
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="80" lean-forward="true" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+              <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -227,12 +225,12 @@
       <workItem from="1540124342088" duration="3000" />
       <workItem from="1540125315265" duration="1000" />
       <workItem from="1540189931929" duration="17000" />
-      <workItem from="1540455209503" duration="915000" />
+      <workItem from="1540455209503" duration="1142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76250000" />
+    <option name="totallyTimeSpent" value="76477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -551,15 +549,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state>
+          <caret column="988" selection-start-column="988" selection-end-column="988" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="80" lean-forward="true" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
         </state>
       </provider>
     </entry>
