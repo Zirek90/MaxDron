@@ -13,7 +13,7 @@ class HeaderMovie extends Component {
             style: {
                 width: '100%',
                 height: '100%',
-                objectFit: 'fill'
+                objectFit: 'cover'
             },
             ref: videoRef => {
                 this.videoRef = videoRef;
