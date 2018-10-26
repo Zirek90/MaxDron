@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac2d3588-9498-4ef6-9aa1-7a9c6a632b87" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Podsumowanie roku 2017  4K - MaxDro.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/dron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_header.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,32 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeaderMovie.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeaderMovie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="45">
+              <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -103,8 +77,8 @@
         <option value="$PROJECT_DIR$/../../Blog/kucingAndBunny/public/index.html" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/scss/partials/_services.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" />
         <option value="$PROJECT_DIR$/src/scss/partials/_header.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js" />
       </list>
     </option>
   </component>
@@ -254,12 +228,12 @@
       <workItem from="1540125315265" duration="1000" />
       <workItem from="1540189931929" duration="17000" />
       <workItem from="1540455209503" duration="1494000" />
-      <workItem from="1540472519139" duration="1161000" />
+      <workItem from="1540472519139" duration="1646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77990000" />
+    <option name="totallyTimeSpent" value="78475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -573,27 +547,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="528">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/HeaderComponents/HeaderMovie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
         </state>
       </provider>
     </entry>
