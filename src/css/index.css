@@ -232,6 +232,15 @@ body {
 
 .parallax {
   height: 500px; }
+  .parallax .pricelistContainer {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center; }
+    .parallax .pricelistContainer .pricelistPhoto, .parallax .pricelistContainer .pricelistVideo {
+      padding-left: 20px;
+      text-align: center;
+      background-color: rgba(248, 248, 248, 0.3); }
   .parallax h2 {
     height: 50%;
     text-align: right;
