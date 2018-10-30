@@ -45,6 +45,9 @@ class App extends Component {
                                         <img src={parallaxBtn} alt="parallaxBtn"/>
                                     </a>
                                 </button>
+                                <h2>Nasz cennik</h2>
+                                <h3>Fotografie zaczynają się od 100zł</h3>
+                                <h3>Filmy zaczynają się od 150zł</h3>
                             </div>
                         </div>
                     </Parallax>
