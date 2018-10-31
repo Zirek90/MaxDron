@@ -43,12 +43,12 @@ class App extends Component {
                         <div className="parallax">
                             <div className="pricelistContainer">
                                 <div className="pricelistPhoto">
-                                <Image src={pricePhoto} alt="photo icon"></Image>
-                                <h3>Nasz zdjecia zaczynaja sie od</h3>
+                                    <Image src={pricePhoto} alt="photo icon"></Image>
+                                    <h3>Nasz zdjecia zaczynaja sie od</h3>
                                 </div>
                                 <div className="pricelistVideo">
-                                <Image src={priceVideo} alt="photo icon"></Image>
-                                <h3>Nasz filmy zaczynaja sie od</h3>
+                                    <Image src={priceVideo} alt="photo icon"></Image>
+                                    <h3>Nasz filmy zaczynaja sie od</h3>
                                 </div>
                             </div>
                             <div className="parallax-wrapper">
