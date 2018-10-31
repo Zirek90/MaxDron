@@ -44,11 +44,13 @@ class App extends Component {
                             <div className="pricelistContainer">
                                 <div className="pricelistPhoto">
                                     <Image src={pricePhoto} alt="photo icon"></Image>
-                                    <h3>Pakiet zdjęć już od 200 zł</h3>
+                                    <h3>Pakiet zdjęć już</h3>
+                                    <h3>od 200 zł</h3>
                                 </div>
                                 <div className="pricelistVideo">
                                     <Image src={priceVideo} alt="photo icon"></Image>
-                                    <h3>Materiał filmowy w jakości 4k już od 250 zł</h3>
+                                    <h3>Materiał filmowy w jakości 4k już</h3>
+                                    <h3>od 250 zł</h3>
                                 </div>
                             </div>
                             <div className="parallax-wrapper">
