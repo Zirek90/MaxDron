@@ -1,8 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 
-class MenuElements extends Component {
-    render() {
+// class MenuElements extends Component {
+//     render() {
+    const MenuElements = () => {
         return (
             <Navbar default collapseOnSelect>
                 <Navbar.Toggle/>
@@ -22,6 +23,7 @@ class MenuElements extends Component {
             </Navbar>
         );
     }
-}
+//     }
+// }
 
 export default MenuElements;

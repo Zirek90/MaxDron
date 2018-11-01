@@ -1,8 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 
-class HeaderTitle extends Component {
-    render() {
+// class HeaderTitle extends Component {
+//     render() {
+    const HeaderTitle = () => {
         return (
             <div className="header-title">
                 <h2 className="header-title-header">MaxDron</h2>
@@ -11,9 +12,9 @@ class HeaderTitle extends Component {
                     <a href="#contact">O nas</a>
                 </div>
             </div>
-
         );
     }
-}
+//     }
+// }
 
 export default HeaderTitle;

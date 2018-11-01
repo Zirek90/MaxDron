@@ -1,7 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class FooterAboutMe extends Component {
-    render() {
+// class FooterAboutMe extends Component {
+    // render() {
+        const FooterAboutMe = () => {
         return (
             <div>
                 <p className="footer-aboutMe">MaxDron, oferujemy kompleksowe usługi z zakresu fotografii oraz filmowania
@@ -23,6 +24,7 @@ class FooterAboutMe extends Component {
             </div>
         );
     }
-}
+    // }
+// }
 
 export default FooterAboutMe;

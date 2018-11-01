@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Col, Image} from 'react-bootstrap';
 
 import facebook from '../../../img/SocialMediaIcons/facebook.png'
@@ -8,8 +8,9 @@ import phone from '../../../img/SocialMediaIcons/mobile-phone.png'
 import youtube from '../../../img/SocialMediaIcons/youtube.png'
 
 
-class FooterSocialMedia extends Component {
-    render() {
+// class FooterSocialMedia extends Component {
+//     render() {
+    const FooterSocialMedia = () => {
         return (
             <Col xs={12} sm={4} className="footer-social-media">
                 <div className="social-media-text">
@@ -36,6 +37,7 @@ class FooterSocialMedia extends Component {
             </Col>
         );
     }
-}
+//     }
+// }
 
 export default FooterSocialMedia;

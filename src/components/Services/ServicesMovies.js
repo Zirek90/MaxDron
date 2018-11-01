@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 import { Grid, Row } from 'react-bootstrap';
 
@@ -26,8 +26,9 @@ const ServicesPhotoRow = [
     }
 ];
 
-class ServicesMovies extends Component {
-    render() {
+// class ServicesMovies extends Component {
+//     render() {
+    const ServicesMovies = () => {
         return (
             <div>
                 <h2 className="services-header">Przykładowe nagrania</h2>
@@ -46,6 +47,7 @@ class ServicesMovies extends Component {
             </div>
         );
     }
-}
+//     }
+// }
 
 export default ServicesMovies;
