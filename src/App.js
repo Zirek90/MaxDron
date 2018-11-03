@@ -55,11 +55,11 @@ class App extends Component {
                             </div>
                             <div className="parallax-wrapper">
                                 <h2>Nasza galeria</h2>
-                                <button>
+                                <div className="gallery-btn">
                                     <a href="https://www.facebook.com/pg/maxdron90/photos/?ref=page_internal">
                                         <img src={parallaxBtn} alt="parallaxBtn"/>
                                     </a>
-                                </button>
+                                </div>
                             </div>
                         </div>
                     </Parallax>

@@ -255,16 +255,16 @@ body {
     position: absolute;
     top: 0px;
     right: 30px; }
-    .parallax .parallax-wrapper button {
+    .parallax .parallax-wrapper .gallery-btn {
       background-color: transparent;
       border-color: transparent; }
-      .parallax .parallax-wrapper button img {
+      .parallax .parallax-wrapper .gallery-btn img {
         text-decoration: none;
         font-size: 3rem;
         border-radius: 10px;
         transformation: scale(1);
         transition: 1s; }
-        .parallax .parallax-wrapper button img:hover {
+        .parallax .parallax-wrapper .gallery-btn img:hover {
           transform: scale(1.5);
           color: black;
           font-weight: bolder;
