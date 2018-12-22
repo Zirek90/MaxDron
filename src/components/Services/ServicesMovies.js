@@ -26,8 +26,6 @@ const ServicesPhotoRow = [
     }
 ];
 
-// class ServicesMovies extends Component {
-//     render() {
     const ServicesMovies = () => {
         return (
             <div>
@@ -47,7 +45,6 @@ const ServicesPhotoRow = [
             </div>
         );
     }
-//     }
-// }
+
 
 export default ServicesMovies;

@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-// class HeaderTitle extends Component {
-//     render() {
     const HeaderTitle = () => {
         return (
             <div className="header-title">
@@ -14,7 +11,6 @@ import React from 'react';
             </div>
         );
     }
-//     }
-// }
+
 
 export default HeaderTitle;

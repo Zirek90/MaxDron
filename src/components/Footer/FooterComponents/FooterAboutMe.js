@@ -1,8 +1,6 @@
 import React from 'react';
 
-// class FooterAboutMe extends Component {
-    // render() {
-        const FooterAboutMe = () => {
+    const FooterAboutMe = () => {
         return (
             <div>
                 <p className="footer-aboutMe">MaxDron, oferujemy kompleksowe usługi z zakresu fotografii oraz filmowania
@@ -24,7 +22,6 @@ import React from 'react';
             </div>
         );
     }
-    // }
-// }
+
 
 export default FooterAboutMe;

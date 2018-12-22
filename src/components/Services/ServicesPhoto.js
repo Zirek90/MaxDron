@@ -55,8 +55,6 @@ const ServicesPhotoRow = [
     }
 ];
 
-// class ServicesPhoto extends Component {
-//     render() {
     const ServicesPhoto = () => {
         return (
             <div>
@@ -76,7 +74,6 @@ const ServicesPhotoRow = [
             </div>
         );
     }
-//     }
-// }
+
 
 export default ServicesPhoto;

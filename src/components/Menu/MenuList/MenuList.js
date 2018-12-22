@@ -1,8 +1,7 @@
 import React from 'react';
 import {Navbar, Nav, NavItem} from 'react-bootstrap';
 
-// class MenuElements extends Component {
-//     render() {
+
     const MenuElements = () => {
         return (
             <Navbar default collapseOnSelect>
@@ -23,7 +22,6 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
             </Navbar>
         );
     }
-//     }
-// }
+
 
 export default MenuElements;

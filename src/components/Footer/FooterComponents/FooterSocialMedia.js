@@ -7,9 +7,6 @@ import email from '../../../img/SocialMediaIcons/gmail.png'
 import phone from '../../../img/SocialMediaIcons/mobile-phone.png'
 import youtube from '../../../img/SocialMediaIcons/youtube.png'
 
-
-// class FooterSocialMedia extends Component {
-//     render() {
     const FooterSocialMedia = () => {
         return (
             <Col xs={12} sm={4} className="footer-social-media">
@@ -37,7 +34,6 @@ import youtube from '../../../img/SocialMediaIcons/youtube.png'
             </Col>
         );
     }
-//     }
-// }
+
 
 export default FooterSocialMedia;

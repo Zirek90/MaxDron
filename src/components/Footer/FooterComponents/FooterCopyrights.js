@@ -1,9 +1,7 @@
 import React from 'react';
 import { Row, Col} from 'react-bootstrap';
 
-// class FooterCopyright extends Component {
-    // render() {
-        const FooterCopyright = () => {
+    const FooterCopyright = () => {
         return (
             <Row className="show-grid footer">
                 <Col xs={12} sm={12} className="footer-copyrights">
@@ -13,8 +11,7 @@ import { Row, Col} from 'react-bootstrap';
             </Row>
         );
     }
-//     }
-// }
+
 
 export default FooterCopyright;
 

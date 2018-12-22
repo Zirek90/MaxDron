@@ -1,8 +1,6 @@
 import React from 'react';
 import HeaderMovie from "./HeaderComponents/HeaderMovie";
 
-// class Header extends Component {
-//     render() {
     const Header = () => {
         return (
             <div>
@@ -10,7 +8,5 @@ import HeaderMovie from "./HeaderComponents/HeaderMovie";
             </div>
         );
     }
-//     }
-// }
 
 export default Header;
