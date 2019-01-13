@@ -16,8 +16,8 @@ const ServicesMovieRow = [
         title: "Bajecznie białe Orłowo 2018 4k - MaxDron"
     },
     {
-        video: "pWEexDZ2fBc",
-        title: "Podsumowanie roku 2017 4K - MaxDron"
+        video: "_mUih6Vr5uI",
+        title: "Wycieczkowce w Gdyni sezon 2018 4K - MaxDron"
     }
 ];
 export default ServicesMovieRow
