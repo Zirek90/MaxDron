@@ -303,6 +303,28 @@ body {
     font-size: 1.6rem;
     transition: ease-in 0.5s; } }
 
+.gallery-container h1 {
+  font-size: 4rem; }
+
+.gallery-container button {
+  margin: 20px;
+  width: 200px;
+  font-size: 3rem;
+  border-radius: 10px;
+  border: none; }
+  .gallery-container button:hover {
+    background-color: #333333;
+    color: white; }
+
+.gallery-container .show-gallery {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0; }
+  .gallery-container .show-gallery img {
+    width: 390px;
+    height: 300px;
+    padding: 10px; }
+
 .footer-container {
   background-color: rgba(233, 233, 233, 0.5);
   padding: 30px 30px 10px 30px; }

@@ -15,6 +15,7 @@ import parallaxBtn from "./img/gallery.png";
 
 import pricePhoto from './img/photo.png';
 import priceVideo from './img/video.png';
+import Gallery from './components/Gallery/Gallery';
 
 class App extends Component {
     render() {
@@ -53,14 +54,14 @@ class App extends Component {
                                     <h3>od 250 zł</h3>
                                 </div>
                             </div>
-                            <div className="parallax-wrapper">
+                            {/* <div className="parallax-wrapper">
                                 <h2>Nasza galeria</h2>
                                 <div className="gallery-btn">
                                     <a href="https://www.facebook.com/pg/maxdron90/photos/?ref=page_internal">
                                         <img src={parallaxBtn} alt="parallaxBtn"/>
                                     </a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </Parallax>
 
@@ -74,6 +75,11 @@ class App extends Component {
                         <div style={{height: "400px"}}/>
 
                     </Parallax>
+
+{/* prace nad galleria */}
+                    
+                    <Gallery />
+
                 </div>
                 <div className="footer-container" id="contact">
                     <Footer/>
