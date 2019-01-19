@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Row } from 'react-bootstrap';
-import ShowGallery from './GalleryComponents/showGallery';
+import { Grid } from 'react-bootstrap';
 
-import Gdynia from '../../database/gdynia'
-import Sopot from '../../database/sopot'
-import Gdansk from '../../database/gdansk'
-import AllPhotos from '../../database/allphotos'
+import ManageGallery from './GalleryComponents/manageGallery';
 
 class Gallery extends Component {
     constructor(props) {
@@ -13,7 +9,6 @@ class Gallery extends Component {
         this.state = {
             isShown: false,
             buttonText: 'Zobacz wiecej',
-            cityToShow: ''
         }
     }
 
@@ -32,52 +27,7 @@ class Gallery extends Component {
         }
     }
 
-    showGdynia = () => {
-        this.setState({
-            cityToShow: 'gdynia'
-        })
-    }
-    showSopot = () => {
-        this.setState({
-            cityToShow: 'sopot'
-        })
-    }
-    showGdansk = () => {
-        this.setState({
-            cityToShow: 'gdansk'
-        })
-    }
-    showAll = () => {
-        this.setState({
-            cityToShow: 'all'
-        })
-    }
-
     render() {
-
-        let photoContent = '';
-
-        if (this.state.cityToShow === 'gdynia') {
-            photoContent = Gdynia.map((e, i) =>
-                <ShowGallery
-                    key={i}
-                    photo={e.photo} />)
-        } else if (this.state.cityToShow === 'sopot') {
-            photoContent = Sopot.map((e, i) =>
-                <ShowGallery
-                    key={i}
-                    photo={e.photo} />)
-        } else if (this.state.cityToShow === 'gdansk') {
-            photoContent = Gdansk.map((e, i) =>
-                <ShowGallery
-                    key={i}
-                    photo={e.photo} />)
-        } else if (this.state.cityToShow === 'all') {
-            photoContent = AllPhotos.map((e, i) =>
-                <ShowGallery
-                    key={i}
-                    photo={e.photo} />)
-        }
 
         return (
             <Grid className="text-center gallery-container">
@@ -85,21 +35,7 @@ class Gallery extends Component {
                 <button onClick={this.showGallery}>{this.state.buttonText}</button>
                 {this.state.isShown
                     ?
-                    <Row>
-                        <div className="gallery-options">
-                            <button onClick={this.showGdynia}>Gdynia</button>
-                            <button onClick={this.showSopot}>Sopot</button>
-                            <button onClick={this.showGdansk}>Gdańsk</button>
-                            <button onClick={this.showAll}>Wszystkie</button>
-                        </div>
-                        {photoContent}
-
-                        {/* {ServicesPhotoRow.map((e,i) => 
-                        <ShowGallery 
-                        key={i}
-                        photo={e.photo}/>
-                    )} */}
-                    </Row>
+                    <ManageGallery />
                     : null
                 }
             </Grid>
