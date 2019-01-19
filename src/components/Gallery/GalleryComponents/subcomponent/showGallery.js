@@ -24,13 +24,13 @@ class ShowGallery extends Component{
 
     render() {
         return(
-            <Col xs={6} sm={4} className="show-gallery">
+            <Col xs={12} sm={6} md={6} lg={4} className="show-gallery">
                 <h3>{this.props.title}</h3>
                 <Image src={this.props.photo} responsive bsStyle="primary"
                     onClick={this.handleShow}/>
                 <Modal show={this.state.show} onHide={this.handleClose} className="gallery-modal">
                     <Modal.Body>
-                        <Image src={this.props.photo} rounded responsive className=""/>
+                        <Image src={this.props.photo} rounded responsive/>
                     </Modal.Body>
                 </Modal>
             </Col>
