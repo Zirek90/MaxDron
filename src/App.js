@@ -76,9 +76,9 @@ class App extends Component {
 
                     </Parallax>
 
-{/* prace nad galleria */}
-                    
-                    <Gallery />
+                    <div id="gallery">
+                        <Gallery />
+                    </div>
 
                 </div>
                 <div className="footer-container" id="contact">

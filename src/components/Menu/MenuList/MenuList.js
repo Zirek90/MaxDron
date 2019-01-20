@@ -14,7 +14,10 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
                         <NavItem eventKey={2} componentClass="span" href="#services">
                             <a href="#services">Usługi</a>
                         </NavItem>
-                        <NavItem eventKey={3} componentClass="span" href="#contact">
+                        <NavItem eventKey={3} componentClass="span" href="#gallery">
+                            <a href="#gallery">Galeria</a>
+                        </NavItem>
+                        <NavItem eventKey={4} componentClass="span" href="#contact">
                             <a href="#contact">Kontakt</a>
                         </NavItem>
                     </Nav>

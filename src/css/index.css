@@ -250,26 +250,6 @@ body {
     height: 50%;
     text-align: right;
     color: black; }
-  .parallax .parallax-wrapper {
-    text-align: right;
-    position: absolute;
-    top: 0px;
-    right: 30px; }
-    .parallax .parallax-wrapper .gallery-btn {
-      background-color: transparent;
-      border-color: transparent; }
-      .parallax .parallax-wrapper .gallery-btn img {
-        text-decoration: none;
-        font-size: 3rem;
-        border-radius: 10px;
-        transformation: scale(1);
-        transition: 1s; }
-        .parallax .parallax-wrapper .gallery-btn img:hover {
-          transform: scale(1.5);
-          color: black;
-          font-weight: bolder;
-          font-size: 4rem;
-          border-radius: 10px; }
 
 @media (min-width: 950px) {
   .pricelistContainer {
@@ -419,3 +399,19 @@ body {
     font-size: 0.8rem;
     display: block;
     padding: 0; } }
+
+.modal {
+  text-align: center;
+  padding: 0; }
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; }
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }

@@ -28,31 +28,31 @@ $transitionOfHeader: ease-in 0.5s;
     // font-size: 3.5rem;
     color: black;
   }
-  .parallax-wrapper {
-    // margin-right: 50px;
-    text-align: right;
-    position: absolute;
-    top: 0px;
-    right: 30px;
-    .gallery-btn {
-      background-color: transparent;
-      border-color: transparent;
-      img {
-        text-decoration: none;
-        font-size: 3rem;
-        border-radius: 10px;
-        transformation: scale(1);
-        transition: 1s;
-        &:hover {
-          transform: scale(1.5);
-          color: black;
-          font-weight: bolder;
-          font-size: 4rem;
-          border-radius: 10px;
-        }
-      }
-    }
-  }
+  // .parallax-wrapper {
+  //   // margin-right: 50px;
+  //   text-align: right;
+  //   position: absolute;
+  //   top: 0px;
+  //   right: 30px;
+  //   .gallery-btn {
+  //     background-color: transparent;
+  //     border-color: transparent;
+  //     img {
+  //       text-decoration: none;
+  //       font-size: 3rem;
+  //       border-radius: 10px;
+  //       transform: scale(1);
+  //       transition: 1s;
+  //       &:hover {
+  //         transform: scale(1.5);
+  //         color: black;
+  //         font-weight: bolder;
+  //         font-size: 4rem;
+  //         border-radius: 10px;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 @media (min-width: 950px) {
