@@ -11,7 +11,6 @@ import Footer from "./components/Footer/Footer";
 
 import transition1 from './img/transition1.jpg';
 import headerPhoto from './img/header.jpg';
-import parallaxBtn from "./img/gallery.png";
 
 import pricePhoto from './img/photo.png';
 import priceVideo from './img/video.png';
@@ -54,14 +53,6 @@ class App extends Component {
                                     <h3>od 250 zł</h3>
                                 </div>
                             </div>
-                            {/* <div className="parallax-wrapper">
-                                <h2>Nasza galeria</h2>
-                                <div className="gallery-btn">
-                                    <a href="https://www.facebook.com/pg/maxdron90/photos/?ref=page_internal">
-                                        <img src={parallaxBtn} alt="parallaxBtn"/>
-                                    </a>
-                                </div>
-                            </div> */}
                         </div>
                     </Parallax>
 

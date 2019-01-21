@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import { Row } from 'react-bootstrap';
 import ShowGallery from './subcomponent/showGallery';
 
-import Gdynia from '../../../database/gdynia';
-import Sopot from '../../../database/sopot'
-import Gdansk from '../../../database/gdansk'
-import AllPhotos from '../../../database/allphotos'
+import GalleryDatabase from '../../../database/galleryDatabase';
 
 class ManageGallery extends Component {
     constructor(props) {
@@ -37,26 +34,25 @@ class ManageGallery extends Component {
     }
 
     render() {
-
         let photoContent = '';
 
         if (this.state.cityToShow === 'gdynia') {
-            photoContent = Gdynia.map((e, i) =>
+            photoContent = GalleryDatabase.Gdynia.map((e, i) =>
                 <ShowGallery
                     key={i}
                     photo={e.photo} />)
         } else if (this.state.cityToShow === 'sopot') {
-            photoContent = Sopot.map((e, i) =>
+            photoContent = GalleryDatabase.Sopot.map((e, i) =>
                 <ShowGallery
                     key={i}
                     photo={e.photo} />)
         } else if (this.state.cityToShow === 'gdansk') {
-            photoContent = Gdansk.map((e, i) =>
+            photoContent = GalleryDatabase.Gdansk.map((e, i) =>
                 <ShowGallery
                     key={i}
                     photo={e.photo} />)
         } else if (this.state.cityToShow === 'all') {
-            photoContent = AllPhotos.map((e, i) =>
+            photoContent = GalleryDatabase.All.map((e, i) =>
                 <ShowGallery
                     key={i}
                     photo={e.photo} />)
