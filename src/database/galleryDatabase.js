@@ -709,32 +709,527 @@ const photoGallery = {
             photo: gdansk54,
         }
     ],
-    // "All": [
-    //     {
-    //         photo: project1,
-    //     },
-    //     {
-    //         photo: project2,
-    //     },
-    //     {
-    //         photo: project1,
-    //     },
-    //     {
-    //         photo: project2,
-    //     },
-    //     {
-    //         photo: project1,
-    //     },
-    //     {
-    //         photo: project2,
-    //     },
-    //     {
-    //         photo: project1,
-    //     },
-    //     {
-    //         photo: project2,
-    //     }
-    // ]
+    "All": [
+        {
+            photo: gdynia1,
+        },
+        {
+            photo: gdynia2,
+        },
+        {
+            photo: gdynia3,
+        },
+        {
+            photo: gdynia4,
+        },
+        {
+            photo: gdynia5,
+        },
+        {
+            photo: gdynia6,
+        },
+        {
+            photo: gdynia7,
+        },
+        {
+            photo: gdynia8,
+        },
+        {
+            photo: gdynia9,
+        },
+        {
+            photo: gdynia10,
+        },
+        {
+            photo: gdynia11,
+        },
+        {
+            photo: gdynia12,
+        },
+        {
+            photo: gdynia13,
+        },
+        {
+            photo: gdynia14,
+        },
+        {
+            photo: gdynia15,
+        },
+        {
+            photo: gdynia16,
+        },
+        {
+            photo: gdynia17,
+        },
+        {
+            photo: gdynia18,
+        },
+        {
+            photo: gdynia19,
+        },
+        {
+            photo: gdynia20,
+        },
+        {
+            photo: gdynia21,
+        },
+        {
+            photo: gdynia22,
+        },
+        {
+            photo: gdynia23,
+        },
+        {
+            photo: gdynia24,
+        },
+        {
+            photo: gdynia25,
+        },
+        {
+            photo: gdynia26,
+        },
+        {
+            photo: gdynia27,
+        },
+        {
+            photo: gdynia28,
+        },
+        {
+            photo: gdynia29,
+        },
+        {
+            photo: gdynia30,
+        },
+        {
+            photo: gdynia31,
+        },
+        {
+            photo: gdynia32,
+        },
+        {
+            photo: gdynia33,
+        },
+        {
+            photo: gdynia34,
+        },
+        {
+            photo: gdynia35,
+        },
+        {
+            photo: gdynia36,
+        },
+        {
+            photo: gdynia37,
+        },
+        {
+            photo: gdynia38,
+        },
+        {
+            photo: gdynia39,
+        },
+        {
+            photo: gdynia40,
+        },
+        {
+            photo: gdynia41,
+        },
+        {
+            photo: gdynia42,
+        },
+        {
+            photo: gdynia43,
+        },
+        {
+            photo: gdynia44,
+        },
+        {
+            photo: gdynia45,
+        },
+        {
+            photo: gdynia46,
+        },
+        {
+            photo: gdynia47,
+        },
+        {
+            photo: gdynia48,
+        },
+        {
+            photo: gdynia49,
+        },
+        {
+            photo: gdynia50,
+        },
+        {
+            photo: gdynia51,
+        },
+        {
+            photo: gdynia52,
+        },
+        {
+            photo: gdynia53,
+        },
+        {
+            photo: gdynia54,
+        },
+        {
+            photo: gdynia55,
+        },
+        {
+            photo: gdynia56,
+        },
+        {
+            photo: gdynia57,
+        },
+        {
+            photo: gdynia58,
+        },
+        {
+            photo: gdynia59,
+        },
+        {
+            photo: gdynia60,
+        },
+        {
+            photo: gdynia61,
+        },
+        {
+            photo: gdynia62,
+        },
+        {
+            photo: gdynia63,
+        },
+        {
+            photo: gdynia64,
+        },
+        {
+            photo: gdynia65,
+        },
+        {
+            photo: gdynia66,
+        },
+        {
+            photo: gdynia67,
+        },
+        {
+            photo: gdynia68,
+        },
+        {
+            photo: gdynia69,
+        },
+        {
+            photo: gdynia70,
+        },
+        {
+            photo: gdynia71,
+        },
+        {
+            photo: gdynia72,
+        },
+        {
+            photo: gdynia73,
+        },
+        {
+            photo: gdynia74,
+        },
+        {
+            photo: gdynia75,
+        },
+        {
+            photo: gdynia76,
+        },
+        {
+            photo: gdynia77,
+        },
+        {
+            photo: gdynia78,
+        },
+        {
+            photo: gdynia79,
+        },
+        {
+            photo: gdynia80,
+        },
+        {
+            photo: gdynia81,
+        },
+        {
+            photo: gdyniaDalmor1
+        },
+        {
+            photo: gdyniaDalmor2
+        },
+        {
+            photo: gdyniaDalmor3
+        },
+        {
+            photo: gdyniaDalmor4
+        },
+        {
+            photo: gdyniaDalmor5
+        },
+        {
+            photo: gdyniaDalmor6
+        },
+        {
+            photo: gdyniaDalmor7
+        },
+        {
+            photo: gdyniaDalmor8
+        },
+        {
+            photo: gdyniaDalmor9
+        },
+        {
+            photo: gdyniaDalmor10
+        },
+        {
+            photo: gdyniaDalmor11
+        },
+        {
+            photo: gdyniaDalmor12
+        },
+        {
+            photo: gdyniaDalmor13
+        },
+        {
+            photo: gdyniaDalmor14
+        },
+        {
+            photo: gdyniaDalmor15
+        },
+        {
+            photo: gdyniaDalmor16
+        },
+        {
+            photo: gdyniaDalmor17
+        },
+        {
+            photo: gdyniaDalmor18
+        },
+        {
+            photo: gdyniaDalmor19
+        },
+        {
+            photo: gdyniaDalmor20
+        },
+        {
+            photo: gdyniaDalmor21
+        },
+        {
+            photo: gdyniaDalmor22
+        },
+        {
+            photo: gdyniaDalmor23
+        },
+        {
+            photo: gdyniaDalmor24
+        },
+        {
+            photo: gdyniaDalmor25
+        },
+        {
+            photo: gdyniaDalmor26
+        },
+        {
+            photo: gdyniaDalmor27
+        },
+        {
+            photo: gdyniaDalmor28
+        },
+        {
+            photo: gdyniaDalmor29
+        },
+        {
+            photo: gdyniaDalmor30
+        },
+        {
+            photo: sopot1,
+        },
+        {
+            photo: sopot2,
+        },
+        {
+            photo: sopot3,
+        },
+        {
+            photo: sopot4,
+        },
+        {
+            photo: sopot5,
+        },
+        {
+            photo: sopot6,
+        },
+        {
+            photo: sopot7,
+        },
+        {
+            photo: sopot8,
+        },
+        {
+            photo: gdansk1,
+        },
+        {
+            photo: gdansk2,
+        },
+        {
+            photo: gdansk3,
+        },
+        {
+            photo: gdansk4,
+        },
+        {
+            photo: gdansk5,
+        },
+        {
+            photo: gdansk6,
+        },
+        {
+            photo: gdansk7,
+        },
+        {
+            photo: gdansk8,
+        },
+        {
+            photo: gdansk9,
+        },
+        {
+            photo: gdansk10,
+        },
+        {
+            photo: gdansk11,
+        },
+        {
+            photo: gdansk12,
+        },
+        {
+            photo: gdansk13,
+        },
+        {
+            photo: gdansk14,
+        },
+        {
+            photo: gdansk15,
+        },
+        {
+            photo: gdansk16,
+        },
+        {
+            photo: gdansk17,
+        },
+        {
+            photo: gdansk18,
+        },
+        {
+            photo: gdansk19,
+        },
+        {
+            photo: gdansk20,
+        },
+        {
+            photo: gdansk21,
+        },
+        {
+            photo: gdansk22,
+        },
+        {
+            photo: gdansk23,
+        },
+        {
+            photo: gdansk24,
+        },
+        {
+            photo: gdansk25,
+        },
+        {
+            photo: gdansk26,
+        },
+        {
+            photo: gdansk27,
+        },
+        {
+            photo: gdansk28,
+        },
+        {
+            photo: gdansk29,
+        },
+        {
+            photo: gdansk30,
+        },
+        {
+            photo: gdansk31,
+        },
+        {
+            photo: gdansk32,
+        },
+        {
+            photo: gdansk33,
+        },
+        {
+            photo: gdansk34,
+        },
+        {
+            photo: gdansk35,
+        },
+        {
+            photo: gdansk36,
+        },
+        {
+            photo: gdansk37,
+        },
+        {
+            photo: gdansk38,
+        },
+        {
+            photo: gdansk39,
+        },
+        {
+            photo: gdansk40,
+        },
+        {
+            photo: gdansk41,
+        },
+        {
+            photo: gdansk42,
+        },
+        {
+            photo: gdansk43,
+        },
+        {
+            photo: gdansk44,
+        },
+        {
+            photo: gdansk45,
+        },
+        {
+            photo: gdansk46,
+        },
+        {
+            photo: gdansk47,
+        },
+        {
+            photo: gdansk48,
+        },
+        {
+            photo: gdansk49,
+        },
+        {
+            photo: gdansk50,
+        },
+        {
+            photo: gdansk51,
+        },
+        {
+            photo: gdansk52,
+        },
+        {
+            photo: gdansk53,
+        },
+        {
+            photo: gdansk54,
+        }
+    ]
 }
 
 export default photoGallery
