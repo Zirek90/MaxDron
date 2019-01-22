@@ -5,6 +5,7 @@ import HeaderVideo from '../../../img/Podsumowanie roku 2017  4K - MaxDron.mp4';
 import VideoCover from 'react-video-cover';
 
 class HeaderMovie extends Component {
+  
     render() {
         const videoOptions = {
             src: HeaderVideo,
