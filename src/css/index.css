@@ -18,9 +18,9 @@ body {
   .navbar-default .navbar-collapse a, .navbar-default .navbar-form a {
     font-size: 1.8rem;
     color: black;
-    padding: 15px; }
+    padding: 15px;
+    text-decoration: none; }
     .navbar-default .navbar-collapse a:hover, .navbar-default .navbar-form a:hover {
-      text-decoration: none;
       font-size: 2rem;
       font-weight: bolder;
       transition: 0.5s ease; }
@@ -115,7 +115,10 @@ body {
 
 .services-container .services-pic {
   width: 550px;
-  height: auto; }
+  height: auto;
+  cursor: pointer; }
+  .services-container .services-pic:hover {
+    transform: scale(1.05); }
 
 @media (max-width: 1199px) {
   .services-columns > h3 {
@@ -193,7 +196,10 @@ body {
 
 .services-container .services-pic {
   width: 550px;
-  height: auto; }
+  height: auto;
+  cursor: pointer; }
+  .services-container .services-pic:hover {
+    transform: scale(1.05); }
 
 @media (max-width: 1199px) {
   .services-columns > h3 {
@@ -307,7 +313,10 @@ body {
     .gallery-container .show-gallery img {
       width: 390px;
       height: 300px;
-      padding: 10px; }
+      padding: 10px;
+      cursor: pointer; }
+      .gallery-container .show-gallery img:hover {
+        transform: scale(1.05); }
   .gallery-container .row {
     margin-bottom: 20px; }
 

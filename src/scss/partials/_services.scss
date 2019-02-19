@@ -52,6 +52,10 @@
   .services-pic {
     width: 550px;
     height: auto;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }
 
@@ -98,9 +102,9 @@
 }
 
 @media (max-width: 674px) {
-  .services-movie {
-    //margin-left: 25%;
-  }
+  // .services-movie {
+  //   margin-left: 25%;
+  // }
   .services-columns > h3 {
     font-size: 0.8rem;
   }
