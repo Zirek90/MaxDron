@@ -6,6 +6,7 @@ import project5 from '../img/Services/Project5.jpg'
 import project6 from '../img/Services/Project6.jpg'
 import project7 from '../img/Services/Project7.jpg'
 import project8 from '../img/Services/Project8.jpg'
+import project9 from '../img/Services/Project9.jpg'
 
 const ServicesPhotoRow = [
     {
@@ -47,6 +48,11 @@ const ServicesPhotoRow = [
         photo: project8,
         title: "wydarzeń",
         description: "Relacje z eventów"
+    },
+    {
+        photo: project9,
+        title: "fotografia wnętrz",
+        description: "Profesjonalne zdjęcia wnętrz w najwyższej jakości"
     }
 ];
 
